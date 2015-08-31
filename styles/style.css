@@ -1,0 +1,248 @@
+/*
+By Herreman David
+http://www.free-css-templates.com
+StyleSheet for BinaryNews Template
+*/
+
+body {
+ background-color: #246124;
+ color: #FFF;
+ padding: 0; margin: 0; font-family: 'Open Sans' sans-serif; line-height: 1.5em;
+}
+
+a { color: #3B8079; background: inherit; }
+a:hover { color: #6FAEA8; background: inherit;}
+
+h1 { 
+	color: #053D37;
+    font: bold 2.2em 'Open Sans', sans-serif;
+    letter-spacing: -1px;
+    padding: 16px 0 8px 0;
+    margin: 0;
+}
+h2 { margin: 16px 0 0 0; padding: 0; font: normal 1.6em 'Open Sans', sans-serif; letter-spacing: -1px; }
+h1 a { color: #46574D; background: inherit; }
+h1 a, h2 a { text-decoration: none; }
+h3 { font-size: 1.4em; margin: 0 0 10px 0; padding: 0; color: #46574D; background: #FFF; }
+p {	margin: 0 0 10px 0; line-height: 1.5em; }
+form { margin: 0; }
+
+input, textarea {
+    font: 16px 'Open Sans', sans-serif;
+}
+input.search { width: 122px; height: 15px; border: 1px dashed #46574D; background-color: #FFF; padding: 3px; color: #616161; }
+input.submit { width: 28px; height: 20px; font-weight: bold; border: none; background: #FFF; padding: 3px; color: #616161; }
+
+.bigtextbox {
+    width: 100%;
+    height: 200px;
+}
+
+.content { 
+    background: #FFF; 
+	margin: 0 auto;
+	padding: 0px;
+	width: 886px;
+	color: #000;
+}
+
+.postbody {
+	background-color: #246124;
+	color: #CE6E5F;
+	width: 886px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+	.postbody a { color: #CE6E5F; text-decoration:none; }
+	.postbody a:hover { color: #CE6E5F; }
+
+.postbody .padding {
+	
+	float: right;
+	padding: 10px 70px 0 0;
+	color: #CE6E5F;
+}
+
+.header {
+	background: #000 url(../images/headerbg.png) no-repeat center bottom;
+	color: #FFF;
+	width: 886px;
+	height: 256px;
+	margin: 0;
+	padding: 0;
+}
+
+.innerheader {
+    width: 100%;
+    margin: 0;
+    padding: 160px 0px 0px 76px;
+	color: #FFF;
+}
+
+.innerheader .title {
+	font: bold 2.4em 'Open Sans', sans-serif;
+}
+
+.innerheader .slogan {
+	clear: both;
+	font: bold 1.2em 'Open Sans', sans-serif;
+}
+
+#nav {
+	background-color: #236A62;
+	width: 886px;
+	height: 46px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font: bold 'Open Sans', sans-serif; 
+	text-decoration: none;
+}
+
+#nav ul { height:100%; margin: 0; list-style:none; padding: 0px 0 0 76px; }
+#nav a, #nav strong, #nav span {
+	float:left;
+	display:block;
+	color:#fff;
+	padding: 10px 20px 10px 20px;
+	background: #3B8079;
+	font: bold 'Open Sans', sans-serif; 
+	text-decoration: none;
+}
+#nav a { float:none; }
+#nav li { float:left; height: 100%; color: #FFF; background: #3B8079; margin:0; padding:0 0 0 0px; }
+#nav #current { float:left; background: #599690; color: #FFF; }
+#nav #current a { float:left; background: #599690;color:#FFF; }
+#nav a:hover { float:left; color:#FFF; background: #599690; }  
+#nav .padding { padding: 5px 0 0 10px; font: bold 1em 'Open Sans', sans-serif; }
+
+
+.main_content {
+	background-color: #FFF;
+	margin: 0 auto;
+	padding: 0px;
+	width: 886px;
+}
+
+.sd_full {
+
+    background-color: #FFF;
+	color: #000;
+	margin: 0 50px 30px 50px;
+}	
+
+.sd_left {
+
+    background-color: #FFF;
+	color: #000;
+	margin: 0 0 0px 50px;
+	padding: 0px 20px 0px 5px;
+	width: 530px;
+	
+}
+
+.sd_right {
+    clear:both;
+    background-color: #FFF;
+	float: right;
+	color: #000;
+	margin: 0 60px 0 0;
+	padding: 0px 0px 0 15px;
+	width: 200px;
+	border-left: 1px dashed #ccc;
+}	
+
+/* For IE... */
+* html .sd_right {
+    clear:both;
+    background-color: #FFF;
+	float: right;
+	color: #000;
+	margin: 0 40px 0 0;
+	padding: 0px 0px 0 15px;
+	width: 170px;
+	border-left: 1px dashed #ccc;
+}	
+
+
+.text_padding {
+	padding: 15px 0 0 0;
+}
+
+.main_content h2 {
+	background-color: #FFF;
+	padding: 5px 0 5px 0;
+	color: #11534C;
+	font: bold 1.8em 'Open Sans', sans-serif;
+}
+
+.inline_block {
+    float: left;
+    width: 200px;
+    margin: 0px 20px 10px 0px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin: 0px 5px 0px 5px;
+}
+
+table {
+    border: 0px;
+    width: 100%;
+}
+
+.first {
+    font-weight: bold;
+}
+
+.tutimage {
+    width: 100%;
+    padding: 10px;
+}
+
+.error {
+	color: #990000;
+	background-color: #FFF0F0;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px dashed #990000;
+}
+.error h2 {
+	color: #990000;
+	background: inherit;
+}
+
+.success {
+	color: #000000;
+	background: #F5FBE1;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px dashed #7BA813;
+}
+.success h2 {
+	color: #7BA813;
+	background: inherit;
+}
+
+.footer { 
+	background-color: #000;
+	width: 886px;
+	color:#555;  
+	font-size:90%;
+	text-align:center; 
+	clear:both;
+}
+
+.footer .padding {
+    padding: 40px 30px 30px 30px;
+        
+}
+
