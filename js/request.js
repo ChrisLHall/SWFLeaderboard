@@ -42,7 +42,6 @@ window.onload = function () {
 
 var onGetWorlds = function (data) {
     $("#status").text("Data loaded successfully.");
-    console.log(data.results);
     var scores = {};
     var finalExpires = {}
     for (var i = 0; i < data.results.length; i++) {
@@ -83,7 +82,6 @@ var onGetWorlds = function (data) {
         row += "</tr>";
         $("#board").append(row);
     }
-    console.log(boardList);
 }
 
 var onFailGetWorlds = function (xhr, textStatus, errorThrown) {
